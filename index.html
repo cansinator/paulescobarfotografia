@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/paulescobar.png" />
+<!--     <link rel="manifest" href="manifest.json"> -->
+    <link rel="shortcut icon" href="img/paulescobar.png">
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" href="css/swiper/swiper.css">
+    <link rel="stylesheet" href="css/swiper/swiper.min.css">
+</head>
+
+<body>
+    <nav id="header" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"></nav>
+    <!-- carousel header inicio -->
+    <div class="containe mt-3">
+        <div id="carouseheader" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="carrusel" src="img/paulescobarwhite.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- carousel header fin -->
+    <!-- carousel miniaturas inicio -->
+    <div class="containe mt-3">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div id="imagenespequeñas" class="swiper-wrapper">
+            </div>
+            <!-- Add Pagination -->
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+    </div>
+    <!-- carousel miniaturas fin -->
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">      
+            <div id="demo" class="carousel slide" data-ride="carousel">      
+              <!-- The slideshow -->
+              <div id="popUpModal" class="carousel-inner innerPopUp">
+              </div>
+      
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>      
+            </div>      
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>      
+        </div>
+      </div>
+      
+   <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper/swiper.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+    <script src="bootstrap/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/utilidades/constantes.js"></script>
+    <script src="js/utilidades/util.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/utilidades/template.js"></script>
+    <script>configuraTemplate(0);</script>
+</body>
+
+</html>
